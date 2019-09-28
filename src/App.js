@@ -5,7 +5,9 @@ import Counter from './components/Counter'
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Counter incrementBy={1} />
+      <Counter incrementBy={5} />
+      <Counter incrementBy={10} />
     </div>
   );
 }
